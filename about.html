@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>데일리 뷰티헬스 저널 - Daily BeautyHealth Journal</title>
+  <title>회사소개 - 데일리 뷰티헬스 저널</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
   <!-- Header -->
   <header class="header">
     <div class="header-brand-wrap container">
-      <a href="/" class="logo-block">
+      <a href="index.html" class="logo-block">
         <span class="logo-icon logo-dbj">DBJ</span>
         <div class="logo-text">
           <h1 class="logo-title">데일리 뷰티헬스 저널</h1>
@@ -24,7 +24,7 @@
     <div class="header-line" aria-hidden="true"></div>
     <div class="header-nav-wrap">
       <nav class="nav container">
-        <a href="#" class="nav-link">뉴스</a>
+        <a href="index.html" class="nav-link">뉴스</a>
         <a href="#" class="nav-link">기획/리포트</a>
         <a href="#" class="nav-link">오피니언</a>
         <a href="#" class="nav-link">멀티미디어</a>
@@ -54,62 +54,73 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main main--about">
     <div class="container">
-      <!-- Hero: Feature -->
-      <section class="hero-section">
-        <article class="card card-feature">
-          <span class="tag">헤드라인</span>
-          <h2 class="card-title">2026 봄/여름 톤 트렌드, 시니어 퍼스널컬러 수업에 적용</h2>
-          <p class="card-desc">교육 현장에서 바로 쓰는 색채 매칭 가이드</p>
-          <a href="#" class="btn btn-outline">자세히 보기</a>
-        </article>
+      <!-- Page header: DBJ + 회사소개 + subtitle + line -->
+      <header class="page-header">
+        <div class="page-header-inner">
+          <span class="page-header-logo logo-dbj">DBJ</span>
+          <div>
+            <h2 class="page-title">회사소개</h2>
+            <p class="page-subtitle">Daily BeautyHealth Journal — 뷰티·헬스케어·교육 전문 인터넷신문</p>
+          </div>
+        </div>
+        <div class="page-header-line" aria-hidden="true"></div>
+      </header>
+
+      <!-- Intro -->
+      <section class="about-intro">
+        <h3 class="about-heading">데일리 뷰티헬스 저널(Daily BeautyHealth Journal)</h3>
+        <p class="about-text">
+          데일리 뷰티헬스 저널은 <strong>뷰티·헬스케어·교육 전문 인터넷신문</strong>입니다. 현장성 있는 취재와 데이터 기반 분석으로 살롱/클리닉 운영자, 교육자, 예비 창업자, 학습자에게 실용적인 인사이트를 전합니다. 아카데미와 연계한 심층 해설, 가이드, 체크리스트를 통해 독자의 <strong>현장 적용력을 높이는 것을 목표</strong>로 합니다.
+        </p>
       </section>
 
-      <!-- Category Overview -->
-      <section class="category-section">
-        <article class="card card-category">
-          <span class="tag">뷰티</span>
-          <p class="card-desc">최근 기사와 아카데미 콘텐츠를 한눈에 제공합니다. (더미 설명)</p>
-          <a href="#" class="card-link">더 보기</a>
-        </article>
-        <article class="card card-category">
-          <span class="tag">헬스</span>
-          <p class="card-desc">최근 기사와 아카데미 콘텐츠를 한눈에 제공합니다. (더미 설명)</p>
-          <a href="#" class="card-link">더 보기</a>
-        </article>
-        <article class="card card-category">
-          <span class="tag">컬러/이미지</span>
-          <p class="card-desc">최근 기사와 아카데미 콘텐츠를 한눈에 제공합니다. (더미 설명)</p>
-          <a href="#" class="card-link">더 보기</a>
-        </article>
-        <article class="card card-category">
-          <span class="tag">기기/테크</span>
-          <p class="card-desc">최근 기사와 아카데미 콘텐츠를 한눈에 제공합니다. (더미 설명)</p>
-          <a href="#" class="card-link">더 보기</a>
-        </article>
+      <!-- Mission & Vision -->
+      <section class="about-section">
+        <h3 class="about-section-title">미션과 비전</h3>
+        <ul class="about-list">
+          <li>정확하고 검증 가능한 정보로 산업의 투명성과 신뢰를 높인다.</li>
+          <li>교육과 실무를 연결하는 브릿지 역할을 수행한다.</li>
+          <li>색채·이미지·디바이스 등 융합 트렌드를 빠르게 해석해 현장에 전달한다.</li>
+        </ul>
       </section>
 
-      <!-- Academy -->
-      <section class="academy-section card card-block">
-        <div class="block-header">
-          <span class="tag">아카데미</span>
-          <h2 class="block-title">평생교육 연계 | 강좌·공지·연구노트</h2>
-          <a href="#" class="btn btn-primary">수강신청</a>
+      <!-- Key Coverage Areas (3 boxes) -->
+      <section class="about-section">
+        <h3 class="about-section-title">주요 취재 분야</h3>
+        <div class="about-boxes">
+          <div class="about-box">
+            <h4 class="about-box-title">뷰티</h4>
+            <p class="about-box-text">시술 트렌드, 색채/이미지 전략, 살롱 운영, 브랜드 인사이트</p>
+          </div>
+          <div class="about-box">
+            <h4 class="about-box-title">헬스케어</h4>
+            <p class="about-box-text">MCC·갈바닉·저주파 등 디바이스 안전 가이드, 근거 리뷰</p>
+          </div>
+          <div class="about-box">
+            <h4 class="about-box-title">교육</h4>
+            <p class="about-box-text">아카데미 커리큘럼, 강의 노트, 현장 체크리스트, 자격·정책</p>
+          </div>
         </div>
       </section>
 
-      <!-- Multimedia -->
-      <section class="multimedia-section card card-block">
-        <div class="block-header">
-          <span class="tag">멀티미디어</span>
-          <h2 class="block-title">포토·영상·카드뉴스</h2>
-        </div>
-        <div class="media-placeholders">
-          <div class="media-placeholder">영상 자리</div>
-          <div class="media-placeholder">포토 자리</div>
-          <div class="media-placeholder">카드뉴스 자리</div>
-        </div>
+      <!-- Editorial Principles -->
+      <section class="about-section">
+        <h3 class="about-section-title">편집 원칙</h3>
+        <ol class="about-list about-list--numbered">
+          <li>공익성·사실성·시의성 우선. 광고·협찬 여부가 편집에 영향을 주지 않습니다.</li>
+          <li>출처 표기와 정정 절차의 상시 개방. 오류는 신속히 바로잡습니다.</li>
+          <li>청소년 보호와 개인정보 보호를 최우선으로 고려합니다.</li>
+        </ol>
+      </section>
+
+      <!-- Academy Linkage -->
+      <section class="about-section">
+        <h3 class="about-section-title">아카데미 연계</h3>
+        <p class="about-text">
+          하라뷰티아카데미와의 협력을 통해 기사와 강의가 연결되는 <strong>실습형 지식 전달</strong>을 지향합니다. 기사 하단의 체크리스트/가이드/참고 자료는 강의 교안과 연동될 수 있습니다.
+        </p>
       </section>
     </div>
   </main>
